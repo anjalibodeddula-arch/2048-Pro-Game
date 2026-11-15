@@ -1,46 +1,52 @@
 🎮 2048 Pro – Puzzle Challenge
 
-A classic 2048 number puzzle game developed using Python and Pygame. Combine matching number tiles to reach the 2048 tile and achieve the highest score!
+A classic 2048 number puzzle game developed using Python and Pygame. Combine matching number tiles to reach 2048 and achieve the highest score!
 
 📌 Project Overview
 
-2048 Pro is a single-player puzzle game played on a 4×4 grid. Players move numbered tiles in four directions. When two tiles with the same number collide, they merge into one tile with double the value.
+2048 Pro is a single-player puzzle game played on a 4×4 grid. Players move numbered tiles in four directions. When two tiles with the same number meet, they merge into one tile with double the value.
 
 ✨ Features
 
 - Interactive 4×4 game board
-- Smooth keyboard controls
+- Keyboard-based movement
 - Score tracking
-- Best score saved locally
+- Best score storage
 - Undo functionality
 - New Game option
-- Win and Game Over detection
+- Win detection
+- Game Over detection
 - Random tile generation
 
 🛠️ Technologies Used
 
-- Python 3
+- Python 3.13
 - Pygame
 - Random module
 - OS module
+- Copy module
 
-💻 Installation
+📥 Installation
 
 1. Clone the repository
 
-git clone https://github.com/anjaliboddedula-arch/2048-Pro-Game.git
+git clone https://github.com/anjalibodeddula-arch/2048-Pro-Game.git
 
-2. Open the project folder
+2. Navigate to the project folder
 
 cd 2048-Pro-Game
 
 3. Install Pygame
 
-python -m pip install pygame
+py -3.13 -m pip install pygame
 
 ▶️ How to Run
 
-python 2048.py
+Execute the following command:
+
+py -3.13 2048.py
+
+The 2048 Pro game window will open.
 
 🎯 Game Controls
 
@@ -50,11 +56,11 @@ Key| Action
 ←| Move Left
 →| Move Right
 R| Restart Game
-U| Undo Move
+U| Undo Previous Move
 
-🏆 Objective
+🏆 Game Objective
 
-Combine matching number tiles and reach 2048 to win the game!
+Combine tiles with identical numbers to create larger numbers. Reach the 2048 tile to win the game!
 
 📂 Project Structure
 
@@ -65,14 +71,18 @@ Combine matching number tiles and reach 2048 to win the game!
 ├── LICENSE
 └── .gitignore
 
-The game automatically creates "best_score.txt" to store the best score.
+The game creates "best_score.txt" locally to save the highest score.
 
 👩‍💻 Developer
 
 Anjali
 
-GitHub: https://github.com/anjaliboddedula-arch
+GitHub Profile:
+https://github.com/anjalibodeddula-arch
+
+Project Repository:
+https://github.com/anjalibodeddula-arch/2048-Pro-Game
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+⭐ If you like this project, please consider giving it a star!
