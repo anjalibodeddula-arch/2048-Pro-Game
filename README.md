@@ -1,30 +1,41 @@
-🎮 2048 Pro – Puzzle Challenge
+🎮 2048 Pro – Number Puzzle Game
 
-A classic 2048 number puzzle game developed using Python and Pygame. Combine matching number tiles to reach 2048 and achieve the highest score!
+A classic 2048 number puzzle game developed using Python and Tkinter. Combine matching number tiles to reach 2048 and challenge yourself to achieve the highest score!
 
 📌 Project Overview
 
-2048 Pro is a single-player puzzle game played on a 4×4 grid. Players move numbered tiles in four directions. When two tiles with the same number meet, they merge into one tile with double the value.
+2048 Pro is a single-player puzzle game played on a 4×4 grid. The player moves numbered tiles in four directions: Up, Down, Left, and Right.
+
+When two tiles with the same number collide, they merge into one tile with double the value. The objective is to reach the 2048 tile.
 
 ✨ Features
 
 - Interactive 4×4 game board
-- Keyboard-based movement
+- Graphical user interface using Tkinter
+- Keyboard-based tile movement
 - Score tracking
-- Best score storage
+- Best score storage using a text file
 - Undo functionality
 - New Game option
+- Random tile generation
 - Win detection
 - Game Over detection
-- Random tile generation
+- Colorful numbered tiles
 
 🛠️ Technologies Used
 
-- Python 3.13
-- Pygame
-- Random module
-- OS module
-- Copy module
+- Python 3 – Programming language
+- Tkinter – Graphical User Interface (GUI)
+- Random – Random tile generation
+- OS – File handling and best score storage
+- Copy – Maintaining previous game states for undo functionality
+
+💻 Requirements
+
+- Python 3.x
+- Tkinter (included with most standard Python installations)
+
+No external Python packages are required.
 
 📥 Installation
 
@@ -32,35 +43,33 @@ A classic 2048 number puzzle game developed using Python and Pygame. Combine mat
 
 git clone https://github.com/anjalibodeddula-arch/2048-Pro-Game.git
 
-2. Navigate to the project folder
+2. Open the project folder
 
 cd 2048-Pro-Game
 
-3. Install Pygame
+3. Run the game
 
-py -3.13 -m pip install pygame
+py 2048.py
 
-▶️ How to Run
-
-Execute the following command:
-
-py -3.13 2048.py
-
-The 2048 Pro game window will open.
+The 2048 Pro game window will open on your desktop.
 
 🎯 Game Controls
 
 Key| Action
-↑| Move Up
-↓| Move Down
-←| Move Left
-→| Move Right
+↑| Move tiles Up
+↓| Move tiles Down
+←| Move tiles Left
+→| Move tiles Right
 R| Restart Game
 U| Undo Previous Move
 
 🏆 Game Objective
 
-Combine tiles with identical numbers to create larger numbers. Reach the 2048 tile to win the game!
+- Start with two randomly generated number tiles.
+- Move tiles using the arrow keys.
+- Merge identical numbers to create larger tiles.
+- Continue merging until you reach 2048.
+- Try to achieve the highest possible score!
 
 📂 Project Structure
 
@@ -69,9 +78,10 @@ Combine tiles with identical numbers to create larger numbers. Reach the 2048 ti
 ├── 2048.py
 ├── README.md
 ├── LICENSE
-└── .gitignore
+├── .gitignore
+└── best_score.txt
 
-The game creates "best_score.txt" locally to save the highest score.
+Note: "best_score.txt" is automatically created when a new best score is achieved.
 
 👩‍💻 Developer
 
@@ -85,4 +95,4 @@ https://github.com/anjalibodeddula-arch/2048-Pro-Game
 
 ---
 
-⭐ If you like this project, please consider giving it a star!
+⭐ If you like this project, consider giving the repository a star!
