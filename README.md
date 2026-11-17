@@ -94,5 +94,3 @@ Project Repository:
 https://github.com/anjalibodeddula-arch/2048-Pro-Game
 
 ---
-
-⭐ If you like this project, consider giving the repository a star!
